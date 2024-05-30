@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A29411742C08EB8900B90744 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29411732C08EB8900B90744 /* RegisterView.swift */; };
+		A29411762C08EBD300B90744 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29411752C08EBD300B90744 /* RegisterViewModel.swift */; };
+		A29411782C08F8E000B90744 /* PasswordValidtaionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29411772C08F8E000B90744 /* PasswordValidtaionView.swift */; };
+		A294117A2C09077400B90744 /* ShakeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29411792C09077400B90744 /* ShakeAnimation.swift */; };
+		A294117C2C09088C00B90744 /* ConditionalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A294117B2C09088C00B90744 /* ConditionalModifier.swift */; };
+		A294117E2C091A7500B90744 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A294117D2C091A7500B90744 /* FinalView.swift */; };
 		A2B6EB332C08CF470010BF25 /* itmoHumanLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B6EB322C08CF470010BF25 /* itmoHumanLabApp.swift */; };
 		A2B6EB352C08CF470010BF25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B6EB342C08CF470010BF25 /* ContentView.swift */; };
 		A2B6EB372C08CF490010BF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B6EB362C08CF490010BF25 /* Assets.xcassets */; };
 		A2B6EB3A2C08CF490010BF25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B6EB392C08CF490010BF25 /* Preview Assets.xcassets */; };
 		A2B6EB3C2C08CF490010BF25 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B6EB3B2C08CF490010BF25 /* Persistence.swift */; };
 		A2B6EB3F2C08CF490010BF25 /* itmoHumanLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2B6EB3D2C08CF490010BF25 /* itmoHumanLab.xcdatamodeld */; };
+		A2B6EB462C08D0940010BF25 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B6EB452C08D0940010BF25 /* CustomTextField.swift */; };
+		A2B6EB482C08D2980010BF25 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B6EB472C08D2980010BF25 /* Constants.swift */; };
+		A2B6EB4A2C08D3850010BF25 /* CustomTextFiled+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B6EB492C08D3850010BF25 /* CustomTextFiled+Extensions.swift */; };
+		A2B6EB4C2C08D7110010BF25 /* ContinueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B6EB4B2C08D7110010BF25 /* ContinueButton.swift */; };
+		A2B6EB542C08E02D0010BF25 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B6EB532C08E02D0010BF25 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A29411732C08EB8900B90744 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		A29411752C08EBD300B90744 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		A29411772C08F8E000B90744 /* PasswordValidtaionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidtaionView.swift; sourceTree = "<group>"; };
+		A29411792C09077400B90744 /* ShakeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimation.swift; sourceTree = "<group>"; };
+		A294117B2C09088C00B90744 /* ConditionalModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalModifier.swift; sourceTree = "<group>"; };
+		A294117D2C091A7500B90744 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
 		A2B6EB2F2C08CF470010BF25 /* itmoHumanLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itmoHumanLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B6EB322C08CF470010BF25 /* itmoHumanLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itmoHumanLabApp.swift; sourceTree = "<group>"; };
 		A2B6EB342C08CF470010BF25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +40,11 @@
 		A2B6EB392C08CF490010BF25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2B6EB3B2C08CF490010BF25 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A2B6EB3E2C08CF490010BF25 /* itmoHumanLab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = itmoHumanLab.xcdatamodel; sourceTree = "<group>"; };
+		A2B6EB452C08D0940010BF25 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A2B6EB472C08D2980010BF25 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A2B6EB492C08D3850010BF25 /* CustomTextFiled+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomTextFiled+Extensions.swift"; sourceTree = "<group>"; };
+		A2B6EB4B2C08D7110010BF25 /* ContinueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueButton.swift; sourceTree = "<group>"; };
+		A2B6EB532C08E02D0010BF25 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +61,7 @@
 		A2B6EB262C08CF470010BF25 = {
 			isa = PBXGroup;
 			children = (
+				A294117B2C09088C00B90744 /* ConditionalModifier.swift */,
 				A2B6EB312C08CF470010BF25 /* itmoHumanLab */,
 				A2B6EB302C08CF470010BF25 /* Products */,
 			);
@@ -57,6 +80,16 @@
 			children = (
 				A2B6EB322C08CF470010BF25 /* itmoHumanLabApp.swift */,
 				A2B6EB342C08CF470010BF25 /* ContentView.swift */,
+				A29411732C08EB8900B90744 /* RegisterView.swift */,
+				A29411752C08EBD300B90744 /* RegisterViewModel.swift */,
+				A2B6EB532C08E02D0010BF25 /* ViewModel.swift */,
+				A294117D2C091A7500B90744 /* FinalView.swift */,
+				A2B6EB452C08D0940010BF25 /* CustomTextField.swift */,
+				A2B6EB4B2C08D7110010BF25 /* ContinueButton.swift */,
+				A29411772C08F8E000B90744 /* PasswordValidtaionView.swift */,
+				A2B6EB492C08D3850010BF25 /* CustomTextFiled+Extensions.swift */,
+				A29411792C09077400B90744 /* ShakeAnimation.swift */,
+				A2B6EB472C08D2980010BF25 /* Constants.swift */,
 				A2B6EB362C08CF490010BF25 /* Assets.xcassets */,
 				A2B6EB3B2C08CF490010BF25 /* Persistence.swift */,
 				A2B6EB3D2C08CF490010BF25 /* itmoHumanLab.xcdatamodeld */,
@@ -143,10 +176,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B6EB542C08E02D0010BF25 /* ViewModel.swift in Sources */,
+				A29411742C08EB8900B90744 /* RegisterView.swift in Sources */,
+				A2B6EB4C2C08D7110010BF25 /* ContinueButton.swift in Sources */,
+				A294117C2C09088C00B90744 /* ConditionalModifier.swift in Sources */,
+				A294117A2C09077400B90744 /* ShakeAnimation.swift in Sources */,
 				A2B6EB3C2C08CF490010BF25 /* Persistence.swift in Sources */,
+				A294117E2C091A7500B90744 /* FinalView.swift in Sources */,
+				A29411782C08F8E000B90744 /* PasswordValidtaionView.swift in Sources */,
+				A29411762C08EBD300B90744 /* RegisterViewModel.swift in Sources */,
 				A2B6EB352C08CF470010BF25 /* ContentView.swift in Sources */,
 				A2B6EB3F2C08CF490010BF25 /* itmoHumanLab.xcdatamodeld in Sources */,
 				A2B6EB332C08CF470010BF25 /* itmoHumanLabApp.swift in Sources */,
+				A2B6EB462C08D0940010BF25 /* CustomTextField.swift in Sources */,
+				A2B6EB4A2C08D3850010BF25 /* CustomTextFiled+Extensions.swift in Sources */,
+				A2B6EB482C08D2980010BF25 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
